@@ -7,6 +7,7 @@ public class Application {
 
         //https://www.journaldev.com/2324/jackson-json-java-parser-api-example-tutorial
         //https://jsonplaceholder.typicode.com/
+        
         BlogConnector blogConnector = new BlogConnector();
         System.out.println(blogConnector.connect());
     }
